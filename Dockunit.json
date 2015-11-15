@@ -1,0 +1,12 @@
+{
+  "containers": [
+    {
+      "prettyName": "java 8",
+      "image": "dockunit\/prebuilt-images:java-maven-ant-gradle-openjdk-8",
+      "testCommand": "gradle build",
+      "beforeScripts": [
+        
+      ]
+    }
+  ]
+}
